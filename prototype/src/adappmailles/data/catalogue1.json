@@ -1,0 +1,22 @@
+{
+    "motifs":[
+        {
+            "nom_motif" : "Jersey",
+            "coefficient": 1,
+            "instructions":[
+                {
+                    "type_rang":"ENDROIT",
+                    "avant":[],
+                    "repetees":[{"type":"K","n":1}],
+                    "apres":[]
+                },
+                {
+                    "type_rang":"ENVERS",
+                    "avant":[],
+                    "repetees":[{"type":"K","n":1}],
+                    "apres":[]
+                }       
+            ]
+        }
+    ]
+}

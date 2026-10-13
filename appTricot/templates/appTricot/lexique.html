@@ -1,0 +1,37 @@
+{% extends 'appTricot/base.html' %}
+
+{% block title %}Lexique{% endblock %}
+
+{% block content %}
+<h1>Lexique du tricot</h1>
+<div class="entete">
+    <p>Les abréviations utilisées pour les instructions textuelles des différents motifs et patrons des tuiles</p>
+</div>
+
+<table class="table-lexique">
+    <thead>
+        <tr>
+            <th>Abréviation</th>
+            <th>Description</th>
+            <th>Lien vidéo</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for type_maille in types_maille %}
+        <tr>
+            <td><i>{{ type_maille.abreviation }}</i></td>
+            <td>{{ type_maille.definition }}</td>
+            <td>
+                {% if type_maille.lien_video %}
+                    <a href="{{ type_maille.lien_video }}" target="_blank" rel="noopener">
+                        Voir la vidéo
+                    </a>
+                {% else %}
+                    vidéo à venir
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

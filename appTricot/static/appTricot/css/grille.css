@@ -1,0 +1,74 @@
+/*legende*/
+.legende {
+    width:fit-content;
+    padding: 10px 30px;
+    background-color: rgb(172, 173, 172);
+    border-radius: 12px ;
+    margin: 2rem;
+}
+
+.item-legende {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    padding: 10px;
+}
+
+.grille, .grille-tricot {
+    display: flex;
+    flex-direction: column;
+}
+
+.rang {
+    display: flex;
+}
+
+.rang-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.numero-rang {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.8rem;
+}
+
+.ligne-mailles {
+    display: flex;
+
+    margin-top: 4px;
+}
+
+.numero-maille {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    font-size: 0.8rem;
+}
+
+.grille-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    width: fit-content;
+}
+
+.case-grille {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

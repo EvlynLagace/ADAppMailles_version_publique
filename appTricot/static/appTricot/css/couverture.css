@@ -1,0 +1,64 @@
+
+
+.carre-couleur {
+    width:20px;
+    height: 20px;
+    border:1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+
+    background-color: var(--couleur-motif);
+}
+
+.grille-couverture {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+}
+
+.rangee-couverture {
+    display: flex;
+    gap: 2px;
+}
+
+.tuile {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--couleur-motif);
+    cursor: pointer;    
+}
+
+.menu-contextuel{
+    position:absolute;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    min-width: 180px;
+}
+
+.menu-contextuel-info {
+    font-size: 12px;
+    color:#666;
+    margin-bottom: 10px;
+}
+
+.menu-contextuel-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+
+.grille-couverture-react {
+    position: relative;
+}

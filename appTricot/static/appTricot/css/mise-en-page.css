@@ -1,0 +1,120 @@
+.entete-accueil {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    align-items: center;
+}
+
+.layout-formation{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto 1fr;
+}
+
+.layout-gauche{
+    gap : 2rem;
+    align-items: center;
+}
+
+.presentation {
+    grid-column: 2;
+    padding: 5%;
+    background-color: #f5deb3;
+    border-radius: 12px;
+
+    background-image:
+        repeating-linear-gradient(
+            0deg,
+            rgba(60, 45, 30, .025) 0px,
+            rgba(60, 45, 30, .025) 1px,
+            transparent 1px,
+            transparent 5px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            rgba(60, 45, 30, .02) 0px,
+            rgba(60, 45, 30, .02) 1px,
+            transparent 1px,
+            transparent 5px
+        ),
+        radial-gradient(
+            rgba(50, 40, 30, .05) 1px,
+            transparent 1px
+        );
+
+    background-size: 5px 5px, 5px 5px, 11px 11px;
+}
+
+.footer-contenu {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 3rem;
+    align-items: start;
+}
+
+.footer-gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-droite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* aligne le texte et le bouton à droite */
+    background-color: #719492;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+}
+
+.footer-droite p {
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+.table-lexique {
+    border-collapse: collapse;
+}
+
+.table-lexique th,
+.table-lexique td {
+    padding: 8px;
+    border-right: 1px solid black;
+}
+
+.table-lexique th:last-child,
+.table-lexique td:last-child {
+    border-right: none;
+}
+
+.layout-motifs{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap:2rem;
+    align-items: start;
+}
+
+.infos-couverture {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.layout-couverture{
+    display: grid;
+    max-width: 1200px;   
+    margin: 0 auto;
+    gap:2rem;
+    justify-content: center;
+}
+
+.barre-compte{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #719492;
+}

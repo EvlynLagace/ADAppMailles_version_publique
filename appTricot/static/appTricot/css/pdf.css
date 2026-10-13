@@ -1,0 +1,80 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.sens_tricot,
+.inverse_tricot,
+.with_yarn_in_front,
+.with_yarn_in_back {
+    background-color: transparent !important;
+}
+
+.item-legende {
+    padding: 10px;
+}
+
+.maille {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+}
+
+.numero-rang {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.8rem;
+    background-color: lightgray !important;
+}
+
+.numero-maille {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.8rem;
+    background-color: lightgray !important;
+}
+
+table { border-collapse: collapse;}
+
+td {
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.maille-repetee {
+    background-color: #d9ecff !important;
+}
+
+td.maille-bordure{
+   background-color: #fce4ec !important; 
+}
+
+td.maille-ajoutee{
+    background-color: rgb(250, 224, 121) !important;
+}
+
+td.maille-remplissage{
+    background-color: rgb(149, 250, 121) !important;
+}
+
+.page-break {
+    break-before: page;
+}
+
+td.pattern_simple {
+    background-color: white !important;
+}

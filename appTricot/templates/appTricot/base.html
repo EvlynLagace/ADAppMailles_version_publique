@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}ADAppMailles{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'appTricot/css/style.css' %}">    
+    <link rel="icon" type="image/png" href="{% static 'appTricot/images/favicon.png' %}">
+
+</head>
+<body>
+
+<header>
+    <div class="barre-compte">
+        {% if user.is_authenticated %}
+            <span>Bonjour {{ user.username }}</span>
+
+            <form method="post" action="{% url 'account_logout' %}" onsubmit="return confirm('Voulez-vous vraiment vous déconnecter ?');">
+                {% csrf_token %}
+                <button class="bouton-compte" type="submit">Se déconnecter</button>
+            </form>
+        {% else %}
+
+            <span>
+            <a href="{% url 'account_login' %}" class="bouton-compte">
+                Se connecter
+            </a>
+
+            <a href="{% url 'account_signup' %}" class="bouton-compte">
+                 Créer un compte
+            </a>
+            </span>
+        {% endif %}
+    </div>
+    <nav class="menu-principal">
+        <div class="menu-gauche">
+            <a href="{% url 'indexTricot' %}">Accueil</a>
+            <a href="{% url 'catalogue' %}">Catalogue des motifs</a>
+            <a href="{% url 'couverture' %}">Couverture</a>
+        </div>
+        <div class="menu-droite">
+            <a href="{% url 'bases_tricot' %}">Guide Tricot</a>   
+            <a href="{% url 'lexique' %}">Lexique</a>
+            <a href="{% url 'a_propos' %}">À propos de...</a>
+        </div>        
+    </nav>
+</header>
+
+<main>
+    {% if messages %}
+    <div id="messages-container">
+        {% for message in messages %}
+            <div class="toast {{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <div class="footer-contenu">
+        <div class="footer-gauche">
+            <p>&copy; {% now "Y" %} ADAppMailles</p>
+
+            <a href="https://www.flaticon.com/fr/icones-gratuites/la-laine"
+               title="la laine icônes" target="_blank" rel="noopener noreferrer">
+                Icône de la pelote de laine : Freepik – Flaticon
+            </a>
+
+            <p><a href="mailto:lagace.evlyn@univ.teluq.ca?subject=ADAppMailles">
+                    Me contacter
+                </a>
+            </p>
+        </div>
+
+        <div class="footer-droite">
+            <p>Votre opinion m'est précieuse, elle m'aidera à améliorer ADAppMailles.</p>
+
+            <a class="bouton"
+               href="https://docs.google.com/forms/d/e/1FAIpQLSc2qfP2gD3strF75OKq5RhVqTOV58XpLbpn6HPYy1Z342N7lw/viewform?usp=header"
+               target="_blank" rel="noopener noreferrer">
+                Donner votre avis
+            </a>
+        </div>
+    </div>
+    {% block footer %}{% endblock %}
+</footer>
+    {% block extra_js %}{% endblock %}
+    <script>
+        document.addEventListener("click", function (event) {
+            const container = document.getElementById("messages-container");
+
+            if (!container) return;
+
+            if (!event.target.closest(".toast")) {
+                container.remove();
+            }
+     });
+    </script>
+
+
+</body>
+</html>

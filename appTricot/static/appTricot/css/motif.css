@@ -1,0 +1,94 @@
+.previsualisation-motif {
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    min-width: 220px;
+    padding: 1rem;
+    display: block;
+
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s;
+
+    z-index: 100;
+
+    transition-delay: 0.5s;
+}
+
+.entete-motif {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.motif-info {
+    flex: 1;
+}
+
+.image-echantillon {
+    width: 180px;
+    height: 180px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    flex-shrink: 0;
+    order:-1;
+}
+
+.liste-motifs {
+    background: rgb(172, 173, 172);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.carte-motif {
+    position: relative;
+    display:block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nom-motif {
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: var(--couleur-motif);
+    color: var(--couleur-texte);
+}
+
+.carte-motif:hover .previsualisation-motif {
+    opacity: 1;
+    visibility: visible;
+}
+
+.couleur-motif{
+    width:100%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    background: var(--couleur-motif);
+
+}
+
+.apercu-motif {
+    height: 180px;
+    width: 180px;
+    border-radius: 6px;
+    margin-bottom: .75rem;
+}
+
+.detail-motif {
+    grid-column: 2;
+    border-right: 1px solid black;
+}

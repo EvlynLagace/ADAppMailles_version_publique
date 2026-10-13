@@ -1,0 +1,3515 @@
+{
+    "motifs": [
+        {
+            "nom_motif": "Jersey",
+            "coefficient_horizontal": 1,
+            "coefficient_vertical":1,
+            "couleur_motif":"ivory",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Mousse",
+            "coefficient_horizontal": 1.06,
+            "coefficient_vertical":0.61,
+            "couleur_motif":"lightblue",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Seed Stitch",
+            "coefficient_horizontal": 1.06,
+            "coefficient_vertical":0.71,
+            "couleur_motif":"red",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Moss Stitch",
+            "coefficient_horizontal": 0.95,
+            "coefficient_vertical":0.69,
+            "couleur_motif":"plum",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Seed Blocks",
+            "coefficient_horizontal": 1,
+            "coefficient_vertical":0.89,
+            "couleur_motif":"lightgreen",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Moss Diamonds",
+            "coefficient_horizontal": 0.9,
+            "coefficient_vertical":0.93,
+            "couleur_motif":"green",
+            "instructions": [
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 6
+                        },
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 6
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 6
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 6
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 14
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 12
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 10
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 8
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 6
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 6
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 8
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 10
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 12
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 14
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Seeded Windowpane",
+            "coefficient_horizontal": 1,
+            "coefficient_vertical":1,
+            "couleur_motif":"yellow",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 6
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 9
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 11
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 9
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Single Basketweave",
+            "coefficient_horizontal": 1.36,
+            "coefficient_vertical": 1.04,
+            "couleur_motif":"brown",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "TV Static",
+            "coefficient_horizontal": 0.95,
+            "coefficient_vertical":0.66,
+            "couleur_motif":"grey",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Chevron Rib",
+            "coefficient_horizontal": 0.86,
+            "coefficient_vertical":0.93,
+            "couleur_motif":"blue",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom_motif": "Crossing Paths",
+            "coefficient_horizontal": 1,
+            "coefficient_vertical":0.93,
+            "couleur_motif":"pink",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 6
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 9
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 11
+                        },
+                        {
+                            "type": "K",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 9
+                        },
+                        {
+                            "type": "P",
+                            "n": 4
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 6
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 6
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 4
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 5
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 4
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 7
+                        },
+                        {
+                            "type": "K",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 7
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 5
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        },
+        {
+            "nom_motif": "Dimples",
+            "coefficient_horizontal": 1,
+            "coefficient_vertical":1,
+            "couleur_motif":"chocolate",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "WYIB",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "WYIF",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "WYIB",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "WYIF",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+{
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }
+    ]
+}

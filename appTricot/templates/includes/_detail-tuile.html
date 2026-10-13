@@ -1,0 +1,22 @@
+<h2>Instructions textuelles</h2>
+{% for instruction in instructions_formatees %}
+<p><strong>Rang {{ instruction.numero }} ({{instruction.type_rang }}) :</strong>
+    {% if instruction.bordure %}
+        <strong>Bordure :</strong> {{ instruction.bordure|safe }}
+    {% endif %}
+    {% if instruction.avant %}
+        <strong>Avant :</strong> {{ instruction.avant|safe }}
+    {% endif %}
+    {% if instruction.simple %}
+        <strong>Milieu : </strong> {{ instruction.milieu|safe }}
+    {% else %}
+        <strong>Milieu : </strong>* {{ instruction.milieu|safe }} * {{ instruction.nb_repetitions }} fois
+    {% endif %}
+    {% if instruction.apres %}
+        <strong>Après :</strong> {{ instruction.apres|safe }}
+    {% endif %}
+    {% if instruction.bordure %}
+        <strong>Bordure :</strong> {{ instruction.bordure|safe }}
+    {% endif %}
+</p>
+{% endfor %}

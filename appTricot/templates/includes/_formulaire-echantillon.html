@@ -1,0 +1,16 @@
+<div class="formulaire-echantillon">
+<h3>L'échantillon</h3>
+<h4>{{ echantillon_obj.nom_echantillon }}</h4>
+    <p><strong>Saisissez les dimensions, de même que le nombre de mailles et de rangs correspondant, de votre échantillon tricoté en Jersey.</strong></p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ echantillon_form.as_p }}
+        <button type="submit" name="save_echantillon" class="bouton">
+            Modifier l'échantillon
+        </button>
+    </form>
+
+    {% if user.is_authenticated %}
+        <div id="react-sauvegarde-echantillon"></div>
+    {% endif %}
+</div>

@@ -1,0 +1,46 @@
+{% extends 'appTricot/base.html' %}
+{% load static %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+<h1>ADAppMailles</h1>
+<div class="entete entete-accueil">
+    <div class="bloc-entete">
+        <p>ADAppMailles génère pour vous les instructions permettant de confectionner un ouvrage avec différents motifs de tricot.</p>
+        <p>Son nom est inspiré par Ada Lovelace, pionnière de l'informatique.</p>
+    </div>
+    <a class="bouton" href="{% url 'couverture' %}">Générer votre couverture</a>
+</div>
+
+<div class="layout-formation">
+    <div class="layout-gauche">
+        {% include "includes/_menu-formation.html" %}
+    </div>
+
+    <div class="presentation">
+
+        <h2>Une couverture en patchwork</h2>
+        <p>ADAppMailles a été conçue en premier lieu dans l'optique de concevoir des couvertures en patchwork constituées de tuiles avec chacune un motif différent de celui de ses voisines.</p>        
+        <figure class="centre">
+            <img src="{% static 'appTricot/images/couverture.jpg' %}" alt="Photo d'une couverture" class="grande">
+
+            <figcaption>
+                Une couverture dont les instructions ont été générées par ADAppMailles
+            </figcaption>
+        </figure>
+        <p>Vous pouvez ensuite remplacer un ou plusieurs des motifs choisis afin de personnaliser davantage le modèle que vous tricoterez.</p>
+
+        <h2>Un échantillon personnalisé</h2>
+        <p>L'échantillon est une notion importante du tricot. Il est tricoté en point Jersey.  C'est à partir de ses mesures que l'on peut déterminer, selon le motif, le nombre de mailles et de rangs à tricoter pour obtenir les dimensions souhaitées.</p>
+        <p>L'application adapte toutes les instructions à votre échantillon : vous pouvez donc utiliser la grosseur de fil et d'aiguilles que vous souhaitez.</p>
+        <p>C'est dans la section « couverture » que vous pourrez préciser les dimensions de votre échantillon personnel, de même que les dimensions de la couverture que vous souhaitez tricoter.</p>
+
+        <h2>Un catalogue de motifs</h2>
+        <p>ADAppMailles vous propose une sélection de motifs (pour le moment restreinte, mais qui s'étendra prochainement).  La section « catalogue » vous permet d'obtenir les instructions détaillées d'un motif sélectionné.</p>
+
+        <h2>Un Guide tricot</h2>
+        <p>ADAppMailles vous propose aussi une section dédiée à l'apprentissage du tricot, allant du matériel dont vous aurez besoin jusqu'à des vidéos pour illustrer les techniques nécessaires.</p>
+    </div>
+</div>
+{% endblock %}

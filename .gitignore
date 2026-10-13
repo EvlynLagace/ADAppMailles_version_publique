@@ -1,0 +1,53 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+
+# SQLite database
+*.sqlite3
+
+# pytest
+.pytest_cache/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+*.egg
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Prototype local environment
+prototype/.venv/
+prototype/.pytest_cache/
+db.sqlite3
+appTricot/docs/architecture.drawio
+
+# Secrets et configuration locale
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Fichiers locaux et temporaires
+*.sqlite3-journal
+.DS_Store
+Thumbs.db

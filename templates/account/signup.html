@@ -1,0 +1,19 @@
+{% extends "appTricot/base.html" %}
+
+{% block title %}Créer un compte – ADAppMailles{% endblock %}
+
+{% block content %}
+
+<h1>Créer un compte ADAppMailles</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button class="bouton" type="submit">
+        Créer un compte
+    </button>
+</form>
+
+{% endblock %}

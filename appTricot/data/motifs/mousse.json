@@ -1,0 +1,30 @@
+{
+            "nom_motif": "Mousse",
+            "coefficient_horizontal": 0.96,
+            "coefficient_vertical":0.68,
+            "couleur_motif":"#add8e6",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }

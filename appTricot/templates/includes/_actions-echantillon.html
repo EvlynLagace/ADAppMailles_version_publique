@@ -1,0 +1,52 @@
+<fieldset class="actions">
+<legend><h2> Actions sur l'échantillon</h2></legend>
+
+    {% include "includes/_formulaire-echantillon.html" %}
+
+    {% if user.is_authenticated %}
+        <div class="tooltip">
+            <div id="react-gestion-echantillon"></div>
+                                
+            <span class="tooltip-text">
+                Pour gérer les échantillons de votre compte.
+            </span>
+        </div>        
+    {% endif %}
+
+    <h3>Fichiers</h3>
+
+    <div class="tooltip">
+        <form action="{% url 'sauvegarder_echantillon' %}" method="get">
+            <button type="submit" class="bouton">
+                Exporter l'échantillon
+            </button>
+        </form>
+
+        <span class="tooltip-text">
+            Pour télécharger sur votre ordinateur un fichier .json contenant les paramètres de votre échantillon.
+        </span>
+    </div>
+
+    <div class="tooltip">
+        <form id="form-charger-echantillon" action="{% url 'charger_echantillon' %}" method = "post" enctype="multipart/form-data">
+            {% csrf_token %}
+              
+            <input 
+                id="fichier_echantillon"
+                type="file"
+                name="fichier_echantillon"
+                accept=".json" hidden
+            >                
+                
+            <button type="button" class="bouton" id="bouton-charger-echantillon">
+                Importer un échantillon
+            </button>
+        </form>
+
+        <span class="tooltip-text">
+            Pour récupérer depuis votre ordinateur un fichier .json contenant les paramètres de votre échantillon.
+        </span>
+    </div>
+    
+
+</fieldset>

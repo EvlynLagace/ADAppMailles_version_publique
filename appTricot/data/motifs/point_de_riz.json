@@ -1,0 +1,48 @@
+{
+            "nom_motif": "Point de riz",
+            "coefficient_horizontal": 1.03,
+            "coefficient_vertical":0.80,
+            "couleur_motif":"#ff0000",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }

@@ -1,0 +1,78 @@
+{% extends 'appTricot/base.html' %}
+{% load static %}
+{% block title %}Liste des motifs{% endblock %}
+{% block content %}
+
+<h1>Le catalogue des motifs</h1>
+<div class="entete">
+    <p>Un motif forme une texture ou un effet visuel précis. Il s'agit d'une séquence de mailles et de rangs tricotés et répétés selon des instructions.</p>
+    <p>Le catalogue des motifs d'ADAppMailles est encore relativement restreint, mais il s'enrichira au fil du temps.  Présentement, tous les motifs proposés sont de niveau débutant, n'utilisant que des combinaisons des mailles de base, soit endroit, envers et glissées.</p>
+    <p>Au survol d'un motif dans la liste, les informations sur les mailles nécessaires à sa réalisation sont indiquées.  En le sélectionnant, ses instructions textuelles sont affichées ainsi que la grille correspondante.</p>
+</div>
+<div class="layout-motifs">
+    <div class="liste-motifs">
+    <h2>Les motifs du catalogue</h2>
+        <div>
+            {% for motif_catalogue in motifs %}
+            <a
+                href="{% url 'motif_detail' motif_catalogue.nom_motif %}"
+                class="carte-motif"
+            >
+
+            <div class="nom-motif"
+                style="
+                    --couleur-motif: {{ motif_catalogue.couleur_motif }};
+                    --couleur-texte: {{ motif_catalogue.couleur_texte }};
+                "
+            >
+                {{ motif_catalogue.nom_motif }}
+            </div>
+
+            <div class="previsualisation-motif">
+                {{ motif_catalogue.nom_motif }}
+                <div class="apercu-motif">
+                    <img
+                        src="{% static motif_catalogue.photo %}"
+                        alt="Aperçu du motif {{ motif_catalogue.nom_motif }}"
+                        class="image-echantillon">
+
+                    </div>
+
+                    <p>Multiple de {{ motif_catalogue.nb_mailles_repetees }}
+                        {% if motif_catalogue.nb_mailles_ajoutees %}
+                        plus {{ motif_catalogue.nb_mailles_ajoutees }}
+                        {% endif %}
+                    </p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% if motif_selectionne %}
+        <div>
+            {% include "includes/_detail-motif.html" with motif=motif_selectionne %}
+        </div>
+
+        <div class="grille-tricot">
+            {% include "includes/_grille-motif.html" %}
+            <div class="legende">
+                <h3>Légende</h3>
+                {% include "includes/_legende.html" %}
+            </div>
+
+            <div>
+                <a href="{% url 'motif' motif_selectionne.nom_motif %}" target="_blank" class="bouton">
+                    Version imprimable
+                </a>
+                <a href="{% url 'motif_pdf' motif_selectionne.nom_motif %}" class="bouton">
+                    Télécharger en PDF
+                </a>
+            </div>
+        </div>
+    {% else %}
+        <div>
+            <p>Aucun motif sélectionné !</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock%}

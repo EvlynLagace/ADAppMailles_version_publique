@@ -1,0 +1,39 @@
+{% load static %}
+
+<div class="detail-motif">
+    <div class="entete-motif">
+        <div class="motif-info">
+            <h2>{{ motif.nom_motif }}</h2>
+
+            <strong>
+                Multiple de {{ motif.nb_mailles_repetees }}
+                {% if motif.nb_mailles_ajoutees %}
+                    + {{ motif.nb_mailles_ajoutees }}
+                {% endif %}
+                maille{{ motif.nb_mailles_minimum|pluralize }}
+            </strong>
+        </div>
+
+        {% if photo %}
+            <img src="{% static photo %}" 
+            alt="Échantillon du motif"
+            class="image-echantillon">
+        {% endif %}
+    </div>
+
+    <h3>Instructions textuelles</h3>
+
+    <ul>
+        {% for type_maille in types_maille %}
+            <li><i>{{ type_maille.abreviation }}</i> {{ type_maille.definition }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>Les mailles encadrées par des astérisques (*) sont répétées.<br>
+    Les autres mailles ne sont tricotées qu'une seule fois.</p>
+    
+    {% for instruction in instructions_formatees %}
+        <p>{{ instruction|safe }}</p>
+    {% endfor %}
+
+</div>

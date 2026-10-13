@@ -1,0 +1,34 @@
+<div class="page-break"></div>
+
+<h2>Grille</h2>
+    <p>Une grille de tricot représente l'ouvrage.  Elle se lit dans le sens où un ouvrage est tricoté.  Donc, de bas en haut, les rangs endroit de droite à gauche et les rangs envers de gauche à droite.</p>
+    <table>
+        {% for rang in grille_motif %}
+        <tr>
+            <td class="numero-rang">
+                {% if rang.type_rang == "ENVERS" %}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </td>   
+            {% for maille in rang.mailles %}
+            <td>
+                    {% include "appTricot/print/_dessiner_maille.html" %} 
+            </td>
+            {% endfor %}
+            <td class="numero-rang">
+                {% if rang.type_rang == "ENDROIT" %}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </td>      
+        </tr>
+        {% endfor %}
+        <tr>
+            <td></td>
+            {% for maille in grille_motif.0.mailles %}
+            <td class="numero-maille">
+                {{ forloop.revcounter }}
+            </td>
+            {% endfor%}
+            <td></td>
+        </tr>
+    </table>

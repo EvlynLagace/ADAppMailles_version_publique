@@ -1,0 +1,30 @@
+<fieldset class="actions">
+<legend><h2>Paramètres utilisés</h2></legend>
+
+<div class="formulaire-couverture">
+<h3>La couverture</h3>
+    <p><strong>Saisissez les dimensions de votre couverture.</strong></p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ couverture_form.as_p }}
+
+        <button type="submit" name="save_couverture" class="bouton">
+            Modifier la couverture
+        </button>
+    </form>
+</div>
+
+<div class="formulaire-echantillon">
+<h3>L'échantillon</h3>
+    <p><strong>Saisissez les dimensions, de même que le nombre de mailles et de rangs correspondant, de votre échantillon.</strong></p>
+    <p>L'échantillon est tricoté en point Jersey, avec les mêmes fil et aiguilles qui seront utilisés pour l'ouvrage final.</p>
+    <p>C'est une notion essentielle en tricot, puisqu'il permet de s'assurer des dimensions qu'aura le produit fini.</p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ echantillon_form.as_p }}
+        <button type="submit" name="save_echantillon" class="bouton">
+            Modifier l'échantillon
+        </button>
+    </form>
+</div>
+</fieldset>

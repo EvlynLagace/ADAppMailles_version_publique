@@ -1,0 +1,32 @@
+{% load static %}
+
+<div class="menu-formation-entete">
+    <h2>Guide Tricot</h2>
+    <img src="{% static 'appTricot/images/pelote-de-laine.png' %}" alt="Pelote de laine">
+</div>
+
+<nav class="menu-formation">
+    <div class="menu-formation-description">
+        <div class="menu-formation-boite">
+            <a class="bouton {% if page_active == 'tutoriel_adappmailles' %} actif{% endif %}" 
+                href="{% url 'tutoriel_adappmailles' %}">
+				Utiliser ADAppMailles
+			</a>
+            <p>Tutoriel pour démarrer avec ADAppMailles</p>
+        </div>
+        <div class="menu-formation-boite">
+            <a class="bouton {% if page_active == 'materiel' %} actif{% endif %}" 
+                href="{% url 'materiel' %}">
+				De quoi avez-vous besoin ?
+			</a>
+            <p>Matériel nécessaire pour vous lancer</p>
+        </div>
+        <div class="menu-formation-boite">
+            <a class="bouton {% if page_active == 'bases_tricot' %} actif{% endif %}" 
+                href="{% url 'bases_tricot' %}">
+				Les bases du tricot
+			</a>
+            <p>Les quelques techniques pour débuter à tricoter</p>
+        </div>
+    </div>
+</nav>

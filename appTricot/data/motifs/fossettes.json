@@ -1,0 +1,112 @@
+        {
+            "nom_motif": "Fossettes",
+            "coefficient_horizontal": 0.94,
+            "coefficient_vertical":0.72,
+            "couleur_motif":"#d2691e",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "WYIB",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "WYIF",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "WYIB",
+                            "n": 1
+                        },
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        },
+                        {
+                            "type": "WYIF",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+{
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }

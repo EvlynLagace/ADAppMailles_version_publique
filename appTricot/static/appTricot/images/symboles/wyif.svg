@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_6" transform="rotate(0.202981 16.0003 14.0625) translate(5.41667 6.97917) scale(1.08858 1) translate(-5.41667 -6.97917) translate(26.584 6.97917) scale(1.02942 1) translate(-26.584 -6.97917)">
+   <line fill="none" id="svg_4" stroke="#000000" transform="rotate(-9.16856e-7 11.6524 16.2173)" x1="5.42" x2="14.79" y1="6.98" y2="21.15"/>
+   <line fill="none" id="svg_5" stroke="#000000" transform="rotate(74.7475 19.0608 14.0625)" x1="13.44" x2="24.68" y1="7.8" y2="20.33"/>
+  </g>
+ </g>
+</svg>

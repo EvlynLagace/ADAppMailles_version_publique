@@ -1,0 +1,11 @@
+{% extends 'appTricot/base.html' %}
+
+{% block title %}A propos{% endblock %}
+
+{% block content %}
+<h1>À propos de...</h1>
+<div class="entete">
+    {# Le contenu provient uniquement de mes fichiers Markdown internes. |safe est donc volontaire ici. #}
+    {{ contenu|safe }}
+</div>
+{% endblock %}

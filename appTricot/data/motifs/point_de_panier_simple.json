@@ -1,0 +1,127 @@
+        {
+            "nom_motif": "Point de panier simple",
+            "coefficient_horizontal": 0.84,
+            "coefficient_vertical": 0.91,
+            "couleur_motif":"#a52a2a",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 3
+                        }
+                    ],
+                    "apres": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ]
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [
+                        {
+                            "type": "K",
+                            "n": 1
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 3
+                        },
+                        {
+                            "type": "P",
+                            "n": 1
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }

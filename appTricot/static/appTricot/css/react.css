@@ -1,0 +1,17 @@
+.dialogue-gestion {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.dialogue-gestion .bouton {
+    margin-right: 10px;
+}
+
+.actions-gestion {
+    margin-top: 5px;
+}
+
+.actions-gestion a {
+    margin-right: 10px;
+}

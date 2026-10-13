@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression Tuile</title>
+    {% load static %}
+</head>
+<body>
+<h1>La tuile {{i|add:1}}, {{j|add:1}}</h1>
+
+<p><strong>Motif : </strong>{{ tuile.motif.nom_motif }}</p>
+<p><strong>Nombre de mailles : </strong>{{ tuile.nb_mailles_final}} </p>
+<p><strong>Nombre de rangs : </strong>{{ tuile.nb_rangs_effectif }}</p>
+
+<section>
+    {% include "includes/_detail-tuile.html" %}
+</section>
+
+<section>
+    {% include "includes/_grille-tuile-pdf.html" %}
+</section>
+
+<section class="legende">
+    <h3>Légende</h3>
+    {% include "includes/_legende.html" %}  
+</section>
+</body>
+</html>

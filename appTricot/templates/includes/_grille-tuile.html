@@ -1,0 +1,38 @@
+<h2>Grille</h2>
+<div class="grille-wrapper">
+    <div class="grille-tricot">   
+        {% for rang in tuile_grille %}
+        
+        <div class="rang-wrapper">
+
+            <div class = "case-grille numero-rang">
+                {% if rang.type_rang == "ENVERS" %}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </div>
+            <div class="rang">
+                {% for maille in rang.mailles %}
+                    {% include "appTricot/print/_dessiner_maille.html" %}       
+                {% endfor %}
+            </div>
+
+            <div class = "case-grille numero-rang">
+                {% if rang.type_rang == "ENDROIT" %}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+        {% endfor %}
+</div>
+
+<div class="ligne-mailles">
+    <div class="case-grille numero-maille"></div>        
+    {% for maille in tuile_grille.0.mailles %}
+        <div class="case-grille numero-maille">
+            {{ forloop.revcounter }}
+        </div>
+    {% endfor %}
+        <div class="case-grille numero-maille"></div>
+    </div>
+</div>

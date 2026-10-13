@@ -1,0 +1,39 @@
+{% extends 'appTricot/base.html' %}
+{% block title %}Tuile{% endblock %}
+{% block content %}
+<h1>La tuile {{i|add:1}}, {{j|add:1}}</h1>
+
+<div class="entete">
+    <p><strong>Motif : </strong>{{ tuile.motif.nom_motif }}</p>
+    <p><strong>Nombre de mailles : </strong>{{ tuile.nb_mailles_final }} </p>
+    <p><strong>Nombre de rangs : </strong>{{ tuile.nb_rangs_effectif }}</p>
+    <p><strong>Largeur de la tuile :</strong> {{ tuile.largeur_cm}} cm</p>
+    <p><strong>Hauteur de la tuile :</strong> {{ tuile.hauteur_cm}} cm</p>
+</div>
+
+<div>
+    {% include "includes/_detail-tuile.html" %}
+</div>
+
+<div class="grille-tricot">
+    {% include "includes/_grille-tuile.html" %}
+</div>
+
+<div class="legende">
+    <h3>Légende</h3>
+    {% include "includes/_legende.html" %}
+</div>
+
+<div class="actions">
+
+    <a href="{% url 'tuile_detail_print' i j %}" target="_blank" class="bouton">
+        Version imprimable
+    </a>
+        <a href="{% url 'tuile_detail_pdf' i j %}" class="bouton">
+        Télécharger en pdf
+    </a>
+    <button type="button" class="bouton" onclick="window.close()">
+        Fermer la fenêtre
+    </button>
+</div>
+{% endblock%}

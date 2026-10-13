@@ -1,0 +1,75 @@
+{% extends 'appTricot/base.html' %}
+{% block title %}Paramètres{% endblock %}
+{% block content %}
+<h1>Les paramètres</h1>
+<div class = "entete">
+    <p>ADAppMailles utilise des paramètres afin de déterminer quels motifs seront tricotés et de les ajuster aux dimensions des tuiles de la couverture en tenant compte de votre échantillon.</p>
+</div>
+<div id="messages-container">
+{% if messages %}
+    {% for message in messages %}
+        <div class="toast {{ message.tags }}">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% if echantillon_form.errors or couverture_form.errors %}
+    <div class="toast error">
+    <strong>Une erreur est survenue :</strong>
+        <ul>
+            {% for field, errors in echantillon_form.errors.items %}
+                {% for error in errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            {% endfor %}
+
+            {% for field, errors in couverture_form.errors.items %}
+                {% for error in errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+</div>
+
+<div class="formulaire-couverture">
+    <h2>La couverture</h2>
+    <p><strong>Saisissez les dimensions que vous souhaitez pour votre couverture, en centimètres.</strong></p>
+    <p>Une couverture y correspondant sera automatiquement générée.  Elle sera constituée des plus grandes tuiles carrées possible.</p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ couverture_form.as_p }}
+        <button type="submit" name="save_couverture" class="bouton">Enregistrer la couverture</button>
+    </form>
+</div>
+
+<div class="formulaire-echantillon">
+    <h2>L'échantillon</h2>
+    <p><strong>Saisissez les dimensions, de même que le nombre de mailles et de rangs correspondant, de votre échantillon.</strong></p>
+    <p>L'échantillon est tricoté en point Jersey, avec les mêmes fil et aiguilles qui seront utilisés pour l'ouvrage final.</p>
+    <p>C'est une notion essentielle en tricot, puisqu'il permet de s'assurer des dimensions qu'aura le produit fini.</p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ echantillon_form.as_p }}
+        <button type="submit" name="save_echantillon" class="bouton">Enregistrer l'échantillon</button>
+    </form>
+</div>
+
+<a class="bouton" href="{% url 'couverture' %}">Retour à la couverture</a>
+
+{% endblock%}
+
+{% block extra_js %}
+<script>
+    document.addEventListener("click", function (event) {
+        const container = document.getElementById("messages-container");
+        if (!container) return;
+
+            if (!event.target.closest(".toast")) {
+                container.remove();
+            }
+    });
+</script>
+{% endblock%}

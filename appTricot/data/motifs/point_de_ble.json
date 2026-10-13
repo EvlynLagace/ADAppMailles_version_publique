@@ -1,0 +1,68 @@
+{
+            "nom_motif": "Point de blé",
+            "coefficient_horizontal": 1.06,
+            "coefficient_vertical":0.75,
+            "couleur_motif":"#dda0dd",
+            "instructions": [
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENDROIT",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "P",
+                            "n": 2
+                        },
+                        {
+                            "type": "K",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                },
+                {
+                    "type_rang": "ENVERS",
+                    "avant": [],
+                    "repetees": [
+                        {
+                            "type": "K",
+                            "n": 2
+                        },
+                        {
+                            "type": "P",
+                            "n": 2
+                        }
+                    ],
+                    "apres": []
+                }
+            ]
+        }

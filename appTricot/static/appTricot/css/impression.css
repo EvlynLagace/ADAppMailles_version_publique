@@ -1,0 +1,35 @@
+body {
+    background: white;
+}
+
+.sens_tricot {
+    background-color:white;
+}
+
+.inverse_tricot {
+    
+    background-color:white; 
+}
+
+.with_yarn_in_front {
+    
+    background-color:white; 
+}
+
+.with_yarn_in_back {
+    
+    background-color:white; 
+}
+
+
+.legende {
+    width:fit-content;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.symbole {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

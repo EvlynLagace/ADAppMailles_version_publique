@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression {{motif.nom_motif}}</title>
+</head>
+<body>
+    <H1>{{ motif.nom_motif}}</H1>
+    <section>
+        {% include "includes/_detail-motif.html" %}
+    </section>
+
+    <section>
+        
+        {% include "includes/_grille-motif-pdf.html" %}
+    
+    </section>
+            <section class="legende">
+        <h3>Légende</h3>
+            {% include "includes/_legende.html" %}
+        </section>
+</body>
+</html>

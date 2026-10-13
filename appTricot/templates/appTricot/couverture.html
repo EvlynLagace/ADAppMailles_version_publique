@@ -1,0 +1,41 @@
+{% extends 'appTricot/base.html' %}
+{% load static %}
+{% block title %}Couverture{% endblock %}
+{% block content %}
+
+<h1>La Couverture</h1>
+
+<div class="entete">
+    <div class="infos-couverture">
+        <div class="bloc-entete">
+            {% include "includes/_grille-couverture.html" %}
+                <div class="tooltip">
+                    <form action="{% url 'nouvelle_couverture' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="bouton">
+                            Générer une nouvelle couverture
+                        </button>
+                    </form>
+
+                    <span class="tooltip-text">
+                        Pour générer une nouvelle couverture en utilisant des motifs compatibles aléatoires.
+                    </span>
+                </div>
+        </div>
+
+        <div class="bloc-entete">
+            {% include "includes/_actions-echantillon.html" %}   
+        </div>
+
+        <div class="bloc-entete">
+            {% include "includes/_actions-couverture.html" %}
+        </div>
+    </div>    
+</div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="{% static 'appTricot/javascript/couverture.js' %}"></script>
+<script src="{% static 'appTricot/javascript/gestion.js' %}"></script>
+
+{% endblock%}

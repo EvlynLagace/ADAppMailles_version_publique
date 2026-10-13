@@ -1,0 +1,19 @@
+<div class="formulaire-couverture">
+
+<h3>La couverture</h3>
+<h4>{{ couverture_obj.nom_couverture }}</h4>
+
+    <p><strong>Saisissez les dimensions de votre couverture.</strong></p>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ couverture_form.as_p }}
+
+        <button type="submit" name="save_couverture" class="bouton">
+            Modifier la couverture
+        </button>
+    </form>
+
+    {% if user.is_authenticated %}
+        <div id="react-sauvegarde-couverture"></div>
+    {% endif %}
+</div>

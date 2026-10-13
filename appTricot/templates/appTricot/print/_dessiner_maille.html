@@ -1,0 +1,26 @@
+                    {% if maille == "K" %}
+                        {% if rang.type_rang == "ENDROIT" %}
+                            <div class="case-grille maille flex-centre symbole sens_tricot">
+                                
+                            </div>
+                        {% else %}
+                            <div class="case-grille maille  symbole inverse_tricot">
+                                
+                            </div>
+                        {% endif %}
+
+                    {% elif maille == "P" %}
+                        {% if rang.type_rang == "ENDROIT" %}
+                            <div class="case-grille maille symbole inverse_tricot">
+                                
+                            </div>
+                        {% else %}
+                            <div class="case-grille maille symbole sens_tricot">
+                                
+                            </div>
+                        {% endif %}
+                    {% elif maille == "WYIF" %}
+                        <div class="case-grille maille symbole with_yarn_in_front"></div>
+                    {% elif maille == "WYIB" %}
+                        <div class="case-grille maille symbole with_yarn_in_back"></div>
+                    {% endif %}

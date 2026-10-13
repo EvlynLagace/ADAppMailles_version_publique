@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression Tuile</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'appTricot/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'appTricot/css/impression.css' %}">
+
+</head>
+<body>
+<h1>La tuile {{i|add:1}}, {{j|add:1}}</h1>
+
+<p><strong>Motif : </strong>{{ tuile.motif.nom_motif }}</p>
+<p><strong>Nombre de mailles : </strong>{{ tuile.nb_mailles_final}} </p>
+<p><strong>Nombre de rangs : </strong>{{ tuile.nb_rangs_effectif }}</p>
+
+<section class = "instructions-textuelles">
+    {% include "includes/_detail-tuile.html" %}
+</section>
+
+<section class="grille-tricot">
+    {% include "includes/_grille-tuile.html" %}
+</section>
+
+<section class="legende">
+    <h3>Légende</h3>
+    {% include "includes/_legende.html" %}  
+</section>
+</body>
+</html>

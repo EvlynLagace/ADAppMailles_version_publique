@@ -1,0 +1,67 @@
+<div class="page-break"></div>
+<style>
+@page {
+    margin: 12mm;
+}
+</style>
+<h2>Grille version pdf</h2>
+<table>
+        {% for rang in tuile_grille_pdf %}
+        <tr>
+
+            <td class="numero-rang">
+                {% if rang.type_rang == "ENVERS" %}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </td>
+            {% for maille in rang.bordure %}
+            <td class = " maille-bordure">
+                {% include "appTricot/print/_dessiner_maille.html" %}
+            </td>
+            {% endfor %}
+
+            {% for maille in rang.avant %}
+            <td class="maille-ajoutee">
+                {% include "appTricot/print/_dessiner_maille.html" %}
+            </td>
+            {% endfor %}
+
+            {% for maille in rang.milieu %}
+            <td class = "{% if not rang.est_pattern_simple %}maille-repetee{% else %}maille-remplissage{% endif %}">
+                {% include "appTricot/print/_dessiner_maille.html" %}
+            </td>
+            {% endfor %}
+            
+            {% for maille in rang.apres %}
+            <td class="maille-ajoutee">
+                {% include "appTricot/print/_dessiner_maille.html" %}
+            </td>
+            {% endfor %}
+            
+            {% for maille in rang.bordure %}
+            <td class="maille-bordure">
+                {% include "appTricot/print/_dessiner_maille.html" %}
+            </td>
+            {% endfor %}
+            
+            {# Nombre du rang #}
+            <td class="numero-rang">
+                {% if rang.type_rang == "ENDROIT"%}
+                    {{ forloop.revcounter }}
+                {% endif %}
+            </td>
+
+           
+        </tr>
+
+
+
+        {% endfor %}
+
+    </table>
+            <p>Répéter les mailles du centre (en bleu) {{ tuile_grille_pdf.0.nb_repetitions }} fois</p>
+            <p>Répéter les mailles en vert sur {{ tuile_grille_pdf.0.nb_mailles_sans_bordure}} mailles</p>
+            <p>Les mailles en jaunes sont celles ajoutées avant ou après les répétitions</p>
+            <p>Les mailles en rose sont les mailles de bordure</p>
+
+    

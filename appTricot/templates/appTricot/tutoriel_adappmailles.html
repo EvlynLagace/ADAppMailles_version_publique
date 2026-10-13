@@ -1,0 +1,18 @@
+{% extends 'appTricot/base.html' %}
+
+{% block title %}Tutoriel ADAppMailles{% endblock %}
+
+{% block content %}
+
+<h1>Tutoriel ADAppMailles</h1>
+<div class="layout-formation">
+    <div class="layout-gauche">
+        {% include "includes/_menu-formation.html" %}
+    </div>
+
+    <section class="presentation">
+        {# Le contenu provient uniquement de mes fichiers Markdown internes.|safe est donc volontaire ici. #}
+        {{ contenu|safe }}
+    </section>
+</div>
+{% endblock %}

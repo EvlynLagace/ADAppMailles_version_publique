@@ -1,0 +1,28 @@
+.maille {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.sens_tricot {
+    background-color: #f5deb3;
+}
+
+.inverse_tricot {
+    background-image: url("../images/symboles/purl.svg");
+    background-color: #8b5a2b;
+}
+
+.with_yarn_in_front {
+    background-image: url("../images/symboles/wyif.svg");
+    background-color: rgb(236, 105, 11);
+}
+
+.with_yarn_in_back {
+    background-image: url("../images/symboles/wyib.svg");
+    background-color: rgb(21, 150, 85);
+}

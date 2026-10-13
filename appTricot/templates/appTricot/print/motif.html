@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression {{motif.nom_motif}}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'appTricot/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'appTricot/css/impression.css' %}">
+
+
+</head>
+<body>
+    <h1>{{ motif.nom_motif}}</h1>
+    <div>
+        {% include "includes/_detail-motif.html" %}
+    </div>
+
+    <div class="grille-tricot">
+        
+        {% include "includes/_grille-motif.html" %}
+
+        <div class="legende">
+        <h3>Légende</h3>
+            {% include "includes/_legende.html" %}
+        </div>
+    
+    </div>
+</body>
+</html>
