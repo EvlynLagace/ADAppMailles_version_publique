@@ -45,7 +45,7 @@ http://127.0.0.1:8000/appTricot
 ## Déploiement
 
 L'application est accessible en ligne :
-- [ADAppMailles](https://adappmailles.ca)
+- [ADAppMailles](https://www.adappmailles.ca)
   
 ## Contexte
 Projet de fin d'études, supervisé par M. Christian Jauvin, dans le cadre du programme de Majeure en informatique à la TÉLUQ.
